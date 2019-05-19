@@ -4,7 +4,6 @@ def my_find(collection)
 #create counter
 i = 0
 
-
 #create while iterator
 #.length allows us to iterate through entire array
 while i < collection.length
