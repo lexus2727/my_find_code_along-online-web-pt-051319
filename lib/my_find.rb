@@ -12,7 +12,7 @@ while i < collection.length
 #yield the collection
 #if block returns true 
   if yield(collection[i])
-
+binding.pry
 #return the argument we passed into yield (the element in the array that evaluated true)
   return collection[i]
   
