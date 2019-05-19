@@ -3,7 +3,7 @@ require 'pry'
 def my_find(collection)
 #create counter
 i = 0
-collection = (1..100).to_a
+
 
 #create while iterator
 #.length allows us to iterate through entire array
@@ -24,4 +24,5 @@ end
   i += 1
  end
 end
+
 my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 } 
