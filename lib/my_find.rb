@@ -23,4 +23,4 @@ end
   i += 1
  end
 end
-my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 } 
+my_find(3) {|i| i % 3 == 0 and i % 5 == 0 } 
